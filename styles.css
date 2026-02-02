@@ -1,0 +1,239 @@
+body {
+    background-color: #5e5eb6;
+}
+
+.header {
+    text-align: center;
+}
+
+.topbtn_text {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 60px;
+    font-family: monospace;
+    position: fixed;
+    right: 20px;
+    bottom: 0px;
+    width: 70px;
+    height: 80px;
+    background-color: violet;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border: 2px solid black;
+}
+
+.topbtn_text:hover {
+    background-color: blueviolet;
+}
+
+
+.nav_table {
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgb(232, 179, 232);
+}
+
+.linktonavblock {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-family: monospace;
+}
+
+.nav_table th,
+.nav_table td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border: 5px solid black;
+    padding: 1px;
+    border-radius: 10px;
+}
+
+.header {
+    border: 5px solid black;
+    padding: 10px;
+    display: block;
+    border-radius: 10px;
+    background-color: violet;
+}
+
+.header_title {
+    font-size: 30px;
+    font-family: monospace;
+}
+
+.header_sub {
+    color: rgb(86, 193, 255);
+    font-size: 20px;
+    font-family: monospace;
+    ;
+}
+
+.skills {
+    border: 5px solid black;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-family: monospace;
+    border-radius: 10px;
+    background-color: violet;
+}
+
+details ol {
+    list-style: none;
+}
+
+.article {
+    border: 5px solid black;
+    text-align: center;
+    font-size: 20px;
+    font-family: monospace;
+    border-radius: 10px;
+    background-color: violet;
+}
+
+.ImgGal {
+    border: 3px solid black;
+    padding: 1px;
+    border-radius: 10px;
+}
+
+.gallery {
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: violet;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.Vid iframe {
+    width: 100%;
+    height: 700px;
+    border: 3px solid black;
+    padding: 1px;
+    border-radius: 10px;
+    background-color: violet;
+}
+
+.hobby {
+    border: 5px solid black;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-family: monospace;
+    border-radius: 10px;
+    background-color: violet;
+}
+
+details ul {
+    list-style: none;
+}
+
+.edu_table {
+    border: 5px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: violet;
+}
+
+.edu_table th,
+.edu_table td {
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.quote {
+    border: 5px solid black;
+    padding: 10px;
+    font-size: 35px;
+    text-align: center;
+    font-family: monospace;
+    border-radius: 10px;
+    background-color: violet;
+}
+
+.int {
+    border: 5px solid black;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.form_fieldset {
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+.form_legend {
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+.formdiv {
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+.form_control {
+    width: 100%;
+    font-size: 20px;
+    font-family: monospace;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: violet;
+}
+
+.form_textarea {
+    width: 100%;
+    height: 100px;
+    display: block;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: violet;
+}
+
+.form_button {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100px;
+    border: 3px solid black;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: monospace;
+    background-color: violet;
+}
+
+.footer {
+    margin: 0 auto;
+    width: 100%;
+    border: 5px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    background-color: violet;
+}
+
+.contacts_link {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+    font-family: monospace;
+    text-decoration: none;
+    color: black;
+}

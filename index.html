@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>First Page</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#top" class="topbtn_text">↑</a>
+        <nav>
+            <table class="nav_table" id="top">
+                <thead>
+                    <tr>
+                        <th>
+                            <a href="#skills" class="linktonavblock">Skills</a>
+                        </th>
+                        <th>
+                            <a href="#bio" class="linktonavblock">Bio</a>
+                        </th>
+                        <th>
+                            <a href="#gallery" class="linktonavblock">Gallery</a>
+                        </th>
+                        <th>
+                            <a href="#video" class="linktonavblock">Video</a>
+                        </th>
+                        <th>
+                            <a href="#hobby" class="linktonavblock">Hobby</a>
+                        </th>
+                        <th>
+                            <a href="#education" class="linktonavblock">Education</a>
+                        </th>
+                        <th>
+                            <a href="#quote" class="linktonavblock">Quote</a>
+                        </th>
+                        <th>
+                            <a href="#contact" class="linktonavblock">Contact</a>
+                        </th>
+                    </tr>
+                </thead>
+            </table>
+        </nav>
+        <br><br>
+        <img src=" assets/1.jpg" alt="My Avatar" class="avatar" />
+        <h1 class="header_title">Stepan Akimov</h1>
+        <h2 class="header_sub">Start learn Frontend</h2>
+    </header>
+    <br>
+    <main class="main">
+        <section class="skills" id="skills">
+            <h3>Skills</h3>
+            <details>
+                <summary>Skills list:</summary>
+                <ol>
+                    <li>1. HTML5,CSS</li>
+                    <li>2. Adobe AE</li>
+                    <li>3. Adobe Premiere</li>
+                    <li>4. Adobe Photoshop</li>
+                    <li>5. JS, React</li>
+                </ol>
+            </details>
+        </section>
+        <br>
+        <article class="article" id="bio">
+            <h4>Short bio</h4>
+            <p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Щеке строчка
+                приставка рукопись путь дорогу даль однажды назад реторический, запятой рыбными послушавшись переулка
+                буквоград над. Эта имеет подзаголовок однажды.</p>
+        </article>
+        <br>
+        <section class="gallery" id="gallery">
+            <img src="https://placehold.co/250x250" alt="Photo 1" class="ImgGal">
+            <img src="https://placehold.co/250x250" alt="Photo 2" class="ImgGal">
+            <img src="https://placehold.co/250x250" alt="Photo 3" class="ImgGal">
+            <img src="https://placehold.co/250x250" alt="Photo 1" class="ImgGal">
+            <img src="https://placehold.co/250x250" alt="Photo 2" class="ImgGal">
+            <img src="https://placehold.co/250x250" alt="Photo 3" class="ImgGal">
+        </section>
+        <br>
+        <section class="Vid" id="video">
+            <iframe src="https://www.youtube.com/embed/N-Fa1tm3oz0?list=PLV9lBwGQ2FU1VOctyWifetyMMC-OTJ51e"
+                title="24. Frontender[1.0] CV Page. Вёрстка первой страницы HTML, CSS"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <br>
+        <section class="hobby" id="hobby">
+            <h4>My Hobby</h4>
+            <details>
+                <summary>Hobbies</summary>
+                <ul>
+                    <li>Videogames</li>
+                    <li>Montage</li>
+                    <li>Coding</li>
+                </ul>
+            </details>
+        </section>
+        <br>
+        <section class="edu" id="education">
+            <table class="edu_table">
+                <thead>
+                    <tr>
+                        <th>School / College</th>
+                        <th>Specialty</th>
+                        <th>Year of End</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>SamGTU</td>
+                        <td>Gas montage</td>
+                        <td>2026</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>School 1</td>
+                        <td>All</td>
+                        <td>2022</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        <br>
+        <section class="quote" id="quote">
+            <blockquote>
+                <strong>
+                    Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.
+                </strong>
+            </blockquote>
+        </section>
+        <br>
+        <section class="int" id="contact">
+            <form action="mailto:vooarkivr@gmail.com" method="get" class="form" target="_blank">
+                <fieldset class="form_fieldset">
+                    <legend class="form_legend"><i>Contact me</i></legend>
+                    <div class="formdiv">
+                        <label for="fnameid"><strong>First Name</strong></label>
+                        <input type="text" name="firstname" id="fnameid" required class="form_control"
+                            placeholder="Type your firstname">
+                    </div>
+                    <div class="formdiv">
+                        <label for="lnameid"><strong>Last Name</strong></label>
+                        <input type="text" name="lastname" id="lnameid" required class="form_control"
+                            placeholder="Type your lastname">
+                    </div>
+                    <div class="formdiv">
+                        <label for="dateid"><strong>Date</strong></label>
+                        <input type="date" name="date" id="dateid" required class="form_control">
+                    </div>
+                    <div class="formdiv">
+                        <label for="emaid"><strong>Email</strong></label>
+                        <input type="email" name="email" id="emaid" required class="form_control"
+                            placeholder="Type your email">
+                    </div>
+                </fieldset>
+                <br>
+                <textarea name="question" id="question" cols="50" rows="5" class="form_textarea"
+                    placeholder="Type your question"></textarea>
+                <br>
+                <button type="submit" class="form_button"><strong>Submit</strong></button>
+            </form>
+        </section>
+    </main>
+    <br>
+    <footer class="footer">
+        <address class="c_ad">
+            <a href="mailto:vooarkivr@gmail.com" class="contacts_link" target="_blank"><strong>My Mail</strong></a>
+        </address>
+        <br>
+        <address class="c_ad">
+            <a href="tel:+79372105789" class="contacts_link"><strong>My Phone Number</strong></a>
+        </address>
+    </footer>
+</body>
+
+</html>
